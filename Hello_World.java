@@ -1,12 +1,14 @@
 class Main {
-    static int age = 27; // larger scope able to be used in the entire main class
-    // static int age; If you dont declare the value in the global scope Java will do it automatically to 0
     public static void main(String[] args) {
-        // int age; // local vatialbe
-        // age = 25; // variable decalration || also assing new value to the age variable inside a method
+        int number1 = 5;
+        double number2 = number1; // convert an integer into a double
 
-        // Also
-        // int age = 27;
-        System.out.println("I'm " + age + " years old." );
+        // double number3 = 5.8;
+        // int number4 = number3; // cannot translate double to  in since its incopatible
+
+        double number3 = 5.8;
+        int number4 = (int)number3; // needs to assing int and tell tha compiler in advance
+
+        System.out.println(number4);
     }
 }
