@@ -21,6 +21,16 @@ public class User_Input {
         
         System.out.printf("%s is a very popular language.", language); //! this will print straigth out without taking input, 
 
+
+        // * other methods
+
+        int number = Integer.parseInt(scanner.nextLine()); //? safer way to get ints and doubles
+        double gpa = Double.parseDouble(scanner.nextLine());
+
+        System.out.println(number);
+        System.out.println(gpa);
+
+
         scanner.close(); //! remember to close the scanner once done with it
     }
 
