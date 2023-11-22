@@ -10,6 +10,10 @@ public class User_Input {
         String name = scanner.nextLine();
 
         System.out.printf("Hello %s. How are you?", name); // * printf allows formatting
+        
+        int age = scanner.nextInt();
+        
+        System.out.printf("%d is an execllent age to start coding.", age); // * printf allows formatting
 
         scanner.close(); //! remember to close the scanner once done with it
     }
