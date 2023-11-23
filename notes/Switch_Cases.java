@@ -31,7 +31,7 @@ public class Switch_Cases {
             default:
                 System.out.printf("%s is not a supported operation", operation);
                 break;
-        }
+        } // * you can also add if statements inside the cases for example when dividing by 0
 
         scanner.close();
 
