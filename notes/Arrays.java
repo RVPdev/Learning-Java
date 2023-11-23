@@ -55,5 +55,7 @@ public class Arrays {
         System.out.println(java.util.Arrays.toString(copyOfNumbers));
         System.out.println(java.util.Arrays.toString(copyOfNumbers2));
         System.out.println(java.util.Arrays.toString(copyOfNumbers3));
+        System.out.println(java.util.Arrays.equals(copyOfNumbers3, intArray)); // * returns true
+        System.out.println(copyOfNumbers3 == intArray); // * returns false cuz different memory allocation
     }
 }
